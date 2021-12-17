@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+#i1 {
+	height: 50px;
+    background-color: #8FCCCC;
+    color: lightgoldenrodyellow;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5px;
+	
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #D8EBFF;
+	flex-wrap: wrap;
+	z-index:4;
+	position: relative;
+	border:1px solid grey;
+}
+
+.m1 {
+    display:flex;
+	flex-direction:row;
+	justify-content: center;
+	background-color: #D8EBFF;
+	flex-wrap: wrap;
+	
+}
+.m1 h1 {
+	font-family: 'Cormorant Infant', serif;
+	display:inline;
+	color: #26517C;
+	size:25;
+	transition: text-decoration 5s;
+}
+
+.m1 h1:hover {
+	text-decoration: underline;
+	text-decoration-color: lightgoldenrodyellow;
+	font-family: 'Cormorant Infant', serif;
+	display:inline;
+	color: #04376C;
+	size:25;
+}
+
+
+.menu{
+    height: 50px;
+    background-color: #D8EBFF;
+    color: lightgoldenrodyellow;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin:15px;
+    padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	z-index:4;
+	position: relative;
+}
+#s {
+	font-family: 'Cormorant Infant', serif;
+	display:flex;
+	align-items: font-start ;
+	color: #04376C;
+	margin:20px
+	
+}
+
+/*#i1 {
+	height: 50px;
+    background-color: #8FCCCC;
+    color: lightgoldenrodyellow;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 5px;
+	
+}*/
+.G1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+section {
+	display: flex;
+	flex-direction:column;
+	
+	flex-wrap: wrap;
+}
+.imgfp {
+	margin:-10px;
+	height: 600px;
+	display:flex;
+	flex-direction:row;
+	justify-content: center;
+	position: relative;
+}
+#img1{
+	margin-left:-120px;
+	margin-top:-50px;
+}
+#ph3{
+	margin-top:-400px;
+	margin-left:300px;
+	z-index:2;
+	height: 530px;
+}
+#ph2{
+	z-index:1;
+	opacity:0.6;
+	margin:5px;
+    padding: -5px;
+	background: white;
+}
+#ph1{
+	z-index:1;
+	opacity:0.6;
+	margin:5px;
+    padding: -5px;
+	margin-top:-400px;
+	margin-left:430px;
+}
+p{
+	margin: 10px;
+	padding: 15px;
+	text-shadow:white 0 0 20px;
+	size:30;
+	font-family: 'Playfair Display', serif;	
+	tab-size: 30px;
+	position:absolute;
+	margin-top:300px;
+	margin-left:900px;
+	width:470px;
+	background: #e5eef1;
+}
+.g2 {
+	background-color: #FFD496;
+	/*opacity: 1;*/
+	padding:30px;
+	border-radius: 50px;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+    width: 300px;
+	height: 400px;
+	border-radius: 10 px;
+	margin: 20px;
+	flex:1;
+	max-width: 1000px;
+	min-width: 350px;
+	transition: all 1s;
+	
+}
+
+
+
+body {
+	background-image: url(img/bp1.png);
+}
+
+
+
+
+/*
+
+	  <section>
+		  <div class="g2" > 
+			   <p> 	Как можно представить себе жизнь современного человека без празднования Нового года? У этого события особая магия. К празднику начинают готовиться чуть ли не с осени: выбирают подарки, планируют меню новогоднего стола, костюмы и украшения, а главное – место проведения волшебной ночи. Но так было не всегда.
+			   </p>
+			   <a id="f" href="https://zen.yandex.ru/media/id/5a300d59581669880c5ac664/novyi-god-v-rossii-kak-prazdnuiut-tradicii-i-istoriia-5a301575c89010def4c582f9"> Еще больше информации и фото вы можете найти здесь </a>	   
+			   <img src="img/decor.jpg" > 	   
+		 </div>
+			  
+		  <div class="g2">
+				<h1> Весна </h1>
+				<p> Весна для многих тяжелая пора, уже апрель а во многих местах еще полно снега, помогают только воспоминания о цветущих лугах, распускающихся цветах, зеленой траве.</p>
+				 <a id="f" href= "https://trasyy.livejournal.com/1112376.html "> Еще больше информации и фото вы можете найти здесь </a>
+			   
+			   <img src="img/spring.jpg"> 
+			   
+		 </div>
+			  
+		 <div class="g2">
+			   <h1> Лето </h1>
+			   <p> 
+				  Лето это очень красивое время года. Зелёные деревья, цветущие растения, поля и леса полностью завораживают нас. 
+				</p>
+				<a id="f" href=" https://thypix.com/ru/kartinki-krasivyh-letnih-pejzazhej-100-foto-na-rabochij-stol/"> Еще больше информации и фото вы можете найти здесь </a>
+			   <img src="img/summer.jpg"> 
+			   
+		 </div>
+			  
+		 <div class="g2">
+			   <h1> Осень </h1>
+			   <p> 
+				  Осень – прекрасное время года, наполненное таинственностью и волшебством, воспоминаниями и переживаниями, радостью и грустью, счастьем и красотой. 
+			   </p>
+			   <a id="f" href=" https://www.liveinternet.ru/users/-juliana-/post339040823"> Еще больше информации и фото вы можете найти здесь </a>
+			   <img src="img/autumn.png"> 
+			   
+		 </div>
+
+		</section>
+
+*/
