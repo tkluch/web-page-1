@@ -5,15 +5,6 @@
     left: 0;
 }
 
-#i1 {
-	height: 50px;
-    background-color: #8FCCCC;
-    color: lightgoldenrodyellow;
-    text-transform: uppercase;
-    font-size: 15px;
-    padding: 5px;
-	
-}
 
 header {
 	display: flex;
@@ -25,8 +16,9 @@ header {
 	z-index:4;
 	position: relative;
 	border:1px solid grey;
-}
+	margin:-15px;
 
+}
 .m1 {
     display:flex;
 	flex-direction:row;
@@ -35,32 +27,35 @@ header {
 	flex-wrap: wrap;
 	
 }
-.m1 h1 {
+h1 {
 	font-family: 'Cormorant Infant', serif;
 	display:inline;
 	color: #26517C;
 	size:25;
-	transition: text-decoration 5s;
+	transition: 5s;
 }
 
-.m1 h1:hover {
-	text-decoration: underline;
-	text-decoration-color: lightgoldenrodyellow;
+h1:hover {
+	text-decoration: overline;
+	text-decoration-color: #04376C;
 	font-family: 'Cormorant Infant', serif;
 	display:inline;
 	color: #04376C;
-	size:25;
+	size:26;
+	font-weight:bold;
 }
 
-
+a:hover{
+	text-decoration: none;
+	color: #04376C;
+}
 .menu{
     height: 50px;
-    background-color: #D8EBFF;
+    background-color:#D8EBFF;
     color: lightgoldenrodyellow;
     text-transform: uppercase;
     font-size: 15px;
     margin:15px;
-    padding: 5px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -68,24 +63,14 @@ header {
 	z-index:4;
 	position: relative;
 }
-#s {
+#s, h2 {
 	font-family: 'Cormorant Infant', serif;
 	display:flex;
 	align-items: font-start ;
 	color: #04376C;
-	margin:20px
-	
+	margin:20px;
+	text-decoration: none;
 }
-
-/*#i1 {
-	height: 50px;
-    background-color: #8FCCCC;
-    color: lightgoldenrodyellow;
-    text-transform: uppercase;
-    font-size: 15px;
-    padding: 5px;
-	
-}*/
 .G1 {
 	display: flex;
 	flex-direction: row;

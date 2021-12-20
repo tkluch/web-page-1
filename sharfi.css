@@ -85,45 +85,7 @@ section {
 	
 	flex-wrap: wrap;
 }
-.imgfp {
-	margin:-10px;
-	height: 600px;
-	display:flex;
-	flex-direction:row;
-	justify-content: center;
-	position: relative;
-}
-#img1{
-	margin-left:-120px;
-	margin-top:-50px;
-}
-#ph3{
-	margin-top:-400px;
-	margin-left:290px;
-	z-index:2;
-	height: 530px;
-	transition: 5s;
-}
-#ph3:hover{
-	height: 580px;
-	
-}
-#ph2{
-	z-index:1;
-	opacity:0.6;
-	margin:5px;
-    padding: -5px;
-	background: white;
-}
-#ph1{
-	position: absolute;
-	z-index:1;
-	opacity:0.6;
-	margin:5px;
-    padding: -5px;
-	margin-top:400px;
-	margin-left:350px;
-}
+
 p{
 	margin: 10px;
 	padding: 30px;

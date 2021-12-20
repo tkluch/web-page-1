@@ -27,11 +27,11 @@ header {
 	flex-wrap: wrap;
 	
 }
-h1 {
+h2 {
 	font-family: 'Cormorant Infant', serif;
 	display:inline;
 	color: #26517C;
-	size:25;
+	font-size:30px;
 	transition: 5s;
 }
 
@@ -49,6 +49,14 @@ a:hover{
 	text-decoration: none;
 	color: #04376C;
 }
+#s {
+	font-family: 'Cormorant Infant', serif;
+	display:flex;
+	align-items: font-start ;
+	color: #04376C;
+	margin:20px;
+	text-decoration: none;
+}
 .menu{
     height: 50px;
     background-color:#D8EBFF;
@@ -63,14 +71,7 @@ a:hover{
 	z-index:4;
 	position: relative;
 }
-#s, h2 {
-	font-family: 'Cormorant Infant', serif;
-	display:flex;
-	align-items: font-start ;
-	color: #04376C;
-	margin:20px;
-	text-decoration: none;
-}
+
 
 .G1 {
 	display: flex;
@@ -82,83 +83,27 @@ a:hover{
 section {
 	display: flex;
 	flex-direction:column;
-	
+	margin:-10px;
 	flex-wrap: wrap;
 }
-
 p{
 	margin: 10px;
-	padding: 30px;
+	padding: 40px;
 	text-shadow:white 0 0 20px;
-	size:45;
+	font-size: 20px;
 	font-family: 'Playfair Display', serif;	
-	tab-size: 30px;
-	position:absolute;
-	margin-top:250px;
-	margin-left:960px;
-	width:680px;
-	height: 80px;
+	height: 100px;
+	width:1800px;
 	background: #e5eef1;
-}
-.g2 img {
-	width: 300px;
-	border: 2px solid black;
-	opacity: 0.9;
-	padding:2px;
-	margin: 10px;
-}
-.g2 {
-	/*opacity: 1;*/
-	padding:30px;
-	display: flex;
-    flex-direction: column;
-	justify-content: center;
-	align-items: center;
-    width: 200px;
-	height: 400px;
-	margin: 20px;
-	flex:1;
-	min-width: 300px;
-	transition: all 1s;
-	
-}
-.g2:hover {
-	border:  4px black;
-	opacity: 0.9;
-	margin-top: 2px;
-}
-#f{
-	margin: 10px;
-	text-shadow:white 0 0 20px;
-	font-size:20px;
-	font-family: 'Cormorant', serif;
-	color:black;
-	
-}
-#d{
-	position: absolute;
-	font-family: 'Cormorant Unicase', serif;
-	display:inline;
-	font-size:45px;
-	transition: 5s;
-	margin-top:150px;
-	margin-left:45%;
-	
+	text-align: center;
 }
 
-#o{
-	font-family: 'Cormorant Unicase', serif;
-	display:inline;
-	font-size:45px;
-	transition: 5s;
+
+div{
+	text-align: center;
 	margin-top:50px;
-	width:100%;
-	
-} 
-section {
-	margin-top:100px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
@@ -167,3 +112,4 @@ section {
 body {
 	background-image: url(img/bp2.png);
 }
+
