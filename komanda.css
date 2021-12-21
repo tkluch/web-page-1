@@ -127,22 +127,7 @@ section {
 	margin: 10px;
 	border-radius: 100%;
 }
-footer{
-	position:relative;
-	display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: lightgrey;
-	width:100%;
-    
 
-}
-h3{
-	text-shadow:white 0 0 20px;
-	font-size:24px;
-	font-family: 'Cormorant Infant', serif;
-	color:black;
-}
 body {
 	background-image: url(img/bp2.png);
 }
