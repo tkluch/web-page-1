@@ -32,12 +32,9 @@ h1 {
 	display:inline;
 	color: #26517C;
 	size:25;
-	transition: 5s;
 }
 
 h1:hover {
-	text-decoration: overline;
-	text-decoration-color: #04376C;
 	font-family: 'Cormorant Infant', serif;
 	display:inline;
 	color: #04376C;
@@ -84,6 +81,7 @@ section {
 	min-height: 100%;
 	flex-wrap: wrap;
 }
+
 .imgfp {
 	margin:-10px;
 	height: 600px;
@@ -139,6 +137,27 @@ p{
 	margin-left:900px;
 	width:470px;
 	background: #e5eef1;
+	z-index:2;
+	text-align: center;
+}
+#ph4{
+	height: 150px;
+}
+#g{
+	position: absolute;
+	margin-top:600px;
+	margin-left:1200px;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+h4{
+	text-shadow:white 0 0 20px;
+	size:30;
+	font-family: 'Playfair Display', serif;	
+	tab-size: 30px;
+	position:relative;
 	z-index:2;
 	text-align: center;
 }

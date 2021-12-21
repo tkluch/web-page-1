@@ -71,19 +71,39 @@ a:hover{
 	margin:20px;
 	text-decoration: none;
 }
-.G1 {
+
+img {
+	width: 800px;
+	border: 2px solid black;
+	opacity: 0.9;
+	padding:2px;
+	margin: 10px;
+}
+#d{
+	margin-top:50px;
+	font-family: 'Cormorant Unicase', serif;
+	display:inline;
+	font-size:45px;
+	
+}
+#f{
+	
+	margin: 10px;
+	text-shadow:white 0 0 20px;
+	font-size:20px;
+	font-family: 'Cormorant', serif;
+	color:black;
+	margin-left:20px;
+}
+
+section {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
 }
-section {
-	display: flex;
-	flex-direction:column;
-	
-	flex-wrap: wrap;
-}
+
 body {
 	background-image: url(img/bp2.png);
 }
