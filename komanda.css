@@ -79,97 +79,60 @@ a:hover{
 	flex-wrap: wrap;
 }
 section {
+	margin-top:100px;
 	display: flex;
-	flex-direction:column;
-	min-height: 100%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 }
-.imgfp {
-	margin:-10px;
-	height: 600px;
-	display:flex;
-	flex-direction:row;
-	justify-content: center;
-	position: relative;
-}
-#img1{
-	margin-left:-120px;
-	margin-top:-50px;
-}
-#ph3{
-	margin-top:-400px;
-	margin-left:300px;
-	z-index:2;
-	height: 530px;
-	
-}
-
-
-#ph3:hover{
-	height: 550px;
-	transition: 2s;
-}
-
-
-#ph2{
-	z-index:1;
-	opacity:0.6;
-	margin:5px;
-    padding: -5px;
-	background: white;
-}
-#ph1{
-	position: absolute;
-	z-index:1;
-	opacity:0.6;
-	margin:5px;
-    padding: -5px;
-	margin-top:400px;
-	margin-left:400px;
-}
-p{
-	margin: 10px;
-	padding: 30px;
-	text-shadow:white 0 0 20px;
-	size:30;
-	font-family: 'Playfair Display', serif;	
-	tab-size: 30px;
-	position:absolute;
-	margin-top:300px;
-	margin-left:900px;
-	width:470px;
-	background: #e5eef1;
-	z-index:2;
-	text-align: center;
-}
 .g2 {
-	background-color: #FFD496;
 	/*opacity: 1;*/
 	padding:30px;
-	border-radius: 50px;
 	display: flex;
     flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border-radius: 10px;
-    width: 300px;
+    width: 200px;
 	height: 400px;
-	border-radius: 10 px;
 	margin: 20px;
 	flex:1;
-	max-width: 1000px;
-	min-width: 350px;
+	min-width: 300px;
 	transition: all 1s;
 	
 }
-
+#f{
+	margin: 10px;
+	text-shadow:white 0 0 20px;
+	font-size:24px;
+	font-family: 'Cormorant', serif;
+	color:black;
+	
+}
+#d{
+	position: absolute;
+	font-family: 'Cormorant Unicase', serif;
+	display:inline;
+	font-size:45px;
+	transition: 5s;
+	margin-top:150px;
+	margin-left:45%;
+	
+}
+.g2 img {
+	width: 300px;
+	border: 2px solid black;
+	opacity: 0.9;
+	padding:2px;
+	margin: 10px;
+	border-radius: 100%;
+}
 footer{
-	position:absolute;
+	position:relative;
 	display: flex;
     justify-content: center;
     padding: 5px;
     background-color: lightgrey;
-	top:1200px;
 	width:100%;
     
 
@@ -180,8 +143,6 @@ h3{
 	font-family: 'Cormorant Infant', serif;
 	color:black;
 }
-
 body {
 	background-image: url(img/bp2.png);
-	min-height: 100%;
 }

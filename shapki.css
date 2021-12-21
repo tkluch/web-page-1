@@ -164,6 +164,24 @@ section {
 	flex-wrap: wrap;
 }
 
+footer{
+	position:;
+	display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgrey;
+	top:3500px;
+	width:100%;
+    
+
+}
+h3{
+	text-shadow:white 0 0 20px;
+	font-size:24px;
+	font-family: 'Cormorant Infant', serif;
+	color:black;
+}
+
 body {
 	background-image: url(img/bp2.png);
 }

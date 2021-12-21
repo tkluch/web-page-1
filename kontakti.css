@@ -27,11 +27,11 @@ header {
 	flex-wrap: wrap;
 	
 }
-h2 {
+h1 {
 	font-family: 'Cormorant Infant', serif;
 	display:inline;
 	color: #26517C;
-	font-size:30px;
+	size:25;
 	transition: 5s;
 }
 
@@ -49,14 +49,6 @@ a:hover{
 	text-decoration: none;
 	color: #04376C;
 }
-#s {
-	font-family: 'Cormorant Infant', serif;
-	display:flex;
-	align-items: font-start ;
-	color: #04376C;
-	margin:20px;
-	text-decoration: none;
-}
 .menu{
     height: 50px;
     background-color:#D8EBFF;
@@ -71,8 +63,14 @@ a:hover{
 	z-index:4;
 	position: relative;
 }
-
-
+#s, h2 {
+	font-family: 'Cormorant Infant', serif;
+	display:flex;
+	align-items: font-start ;
+	color: #04376C;
+	margin:20px;
+	text-decoration: none;
+}
 .G1 {
 	display: flex;
 	flex-direction: row;
@@ -83,49 +81,9 @@ a:hover{
 section {
 	display: flex;
 	flex-direction:column;
-	margin:-10px;
+	
 	flex-wrap: wrap;
-}
-p{
-	margin: 10px;
-	padding: 40px;
-	text-shadow:white 0 0 20px;
-	font-size: 20px;
-	font-family: 'Playfair Display', serif;	
-	height: 100px;
-	width:1800px;
-	background: #e5eef1;
-	text-align: center;
-}
-
-
-div{
-	text-align: center;
-	margin-top:50px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-footer{
-	position:absolute;
-	display: flex;
-    justify-content: center;
-    padding: 5px;
-    background-color: lightgrey;
-	top:1200px;
-	width:100%;
-    
-
-}
-h3{
-	text-shadow:white 0 0 20px;
-	font-size:24px;
-	font-family: 'Cormorant Infant', serif;
-	color:black;
 }
 body {
 	background-image: url(img/bp2.png);
 }
-

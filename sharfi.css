@@ -127,6 +127,7 @@ p{
 	opacity: 0.9;
 	margin-top: 2px;
 }
+
 #f{
 	margin: 10px;
 	text-shadow:white 0 0 20px;
@@ -162,6 +163,24 @@ section {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	min-height: 100%;
+}
+footer{
+	position:absolute;
+	display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: lightgrey;
+	top:3500px;
+	width:100%;
+    
+
+}
+h3{
+	text-shadow:white 0 0 20px;
+	font-size:24px;
+	font-family: 'Cormorant Infant', serif;
+	color:black;
 }
 
 body {
